@@ -23,6 +23,6 @@ else
 fi
 
 echo -e "[${PURPLE}i${NC}] Cloning stable OMAKUB..."
-git clone -b stable https://github.com/thinkingcap/omakub.git ~/.local/share/omakub > /dev/null
+git clone -b master https://github.com/thinkingcap/omakub.git ~/.local/share/omakub > /dev/null
 
 #source ~/.local/share/omakub/install.sh
