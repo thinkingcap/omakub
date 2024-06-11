@@ -7,6 +7,6 @@ sudo apt update
 sudo apt install -y mise
 
 # Install default languages
-mise use --global ruby@3.3
+#mise use --global ruby@3.3
 mise use --global node@lts
 mise use --global go@latest
