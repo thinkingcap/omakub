@@ -1,0 +1,28 @@
+#|--------------------------------------------------------------------------
+#| Colors
+#|--------------------------------------------------------------------------
+
+RED='\033[0;91m'
+GREEN='\033[0;92m'
+CYAN='\033[0;96m'
+YELLOW='\033[0;93m'
+PURPLE='\033[0;95m'
+BLUE='\033[0;94m'
+BOLD='\033[1m'
+NC='\033[0m'
+
+echo -e "[${PURPLE}i${NC}] Installing git..."
+sudo apt-get update > /dev/null
+sudo apt-get install -y git > /dev/null 2> /dev/null
+
+if [[ $? -eq 0 ]]; then
+  echo -e "[${GREEN}✓${NC}] git installed"
+else
+  echo -e "[${RED}✗${NC}] Couldn't install git. Aborting!"
+  exit 1
+fi
+
+echo -e "[${PURPLE}i${NC}] Cloning stable OMAKUB..."
+git clone -b stable https://github.com/thinkingcap/omakub.git ~/.local/share/omakub > /dev/null
+
+#source ~/.local/share/omakub/install.sh
