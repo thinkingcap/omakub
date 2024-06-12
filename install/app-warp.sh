@@ -5,3 +5,6 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/warpdotdev.gpg] ht
 rm warpdotdev.gpg
 sudo apt update
 sudo apt install -y warp-terminal
+
+mkdir -p .local/share/warp-terminal/themes
+cp .local/share/omakub/themes/warp/*.yml .local/share/warp-terminal/themes/
