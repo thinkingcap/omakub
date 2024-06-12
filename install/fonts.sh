@@ -30,4 +30,4 @@ fc-cache
 cd -
 
 # Set Cascadia Mono as the default
-gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Nerd Font 10'
+gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Nerd Font 12'
