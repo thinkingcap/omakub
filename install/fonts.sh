@@ -11,6 +11,16 @@ unzip iafonts.zip -d iaFonts
 cp iaFonts/iA-Fonts-master/iA\ Writer\ Mono/Static/iAWriterMonoS-*.ttf ~/.local/share/fonts
 rm -rf iafonts.zip iaFonts
 
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FiraMono.zip
+unzip FiraMono.zip -d FiraMono
+cp FiraMono/*.otf ~/.local/share/fonts
+rm -rf FiraMono.zip FiraMono
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip JetBrainsMono.zip -d JetBrainsMono
+cp JetBrainsMono/*.ttf ~/.local/share/fonts
+rm -rf JetBrainsMono.zip JetBrainsMono
+
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Hack.zip
 unzip Hack.zip -d Hack
 cp Hack/*.ttf ~/.local/share/fonts
