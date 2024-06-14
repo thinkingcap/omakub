@@ -65,4 +65,4 @@ gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
 gsettings set org.gnome.mutter center-new-windows true
 
 # Set Cascadia Mono as the default monospace font
-gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Nerd Font 10'
+gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Nerd Font 12'
